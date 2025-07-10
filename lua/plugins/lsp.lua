@@ -74,6 +74,9 @@ return {
               })
             end
           end,
+          initialization_options = {
+            safeAutocorrect = false,
+          },
         },
         -- This disables the conflicting standalone server
         rubocop = {
